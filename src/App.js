@@ -1,18 +1,12 @@
- import React from 'react'
- import './App.css';
-import Home from "./components/home";
-import About from "./components/about";
+import React from 'react'
+import Home from './comp/home'
 
 function App() {
   return (
-    <div >
-
-<About/>
-      <Home />
-      {/* <About /> */}
-
+    <div>
+      <Home/>
     </div>
-  );
+  )
 }
- 
- export default App
+
+export default App

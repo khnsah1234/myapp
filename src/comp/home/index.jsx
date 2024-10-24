@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { useState } from "react";
-import WeatherCard from '../weathercard';
+import WeatherCard from '../weathercard/index';
 import { Button, Form } from 'react-bootstrap';
 
  
